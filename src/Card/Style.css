@@ -1,0 +1,19 @@
+.Card_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 2rem;
+}
+.card:hover{
+box-shadow: 0 4px 0 4px rgb(189, 207, 214);
+cursor: pointer;
+}
+.card_contents{
+    padding: 0 12px 0 12px;
+}
+.card_contents h3{
+    text-align: center;
+    
+}

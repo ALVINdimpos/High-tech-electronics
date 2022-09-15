@@ -1,0 +1,26 @@
+
+.Experience_contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/images/Background2.jpg");
+    background-size: cover;
+    width: 100%;
+    margin:  0 auto;
+    height: 80vh;
+   
+
+}
+.Experience_contents h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 50%;
+    margin: 0 auto;
+}
+.Experience_contents p{
+    color: #fff;
+    font-size: 17px;
+    width: 80%;
+}
