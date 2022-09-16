@@ -76,7 +76,7 @@ input[type="checkbox"]{
   }
   nav ul{
     position: fixed;
-    top: 80px;
+    top: 61px;
     left: -100%;
     background: #111;
     height: 100vh;

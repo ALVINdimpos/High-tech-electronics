@@ -18,3 +18,18 @@
     color: white;
     font-weight: bolder;
 }
+@media (max-width:550px) {
+    .main-header{
+        height: 50vh;
+    }
+    .main-header__content p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-header__content h1{
+       text-align: center;
+    }
+    .main-header__content button{
+            margin: 2rem 0 0 4rem;
+    }
+}

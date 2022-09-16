@@ -1,7 +1,9 @@
 import React from 'react'
 import './Style.css'
+import { useNavigate } from 'react-router-dom'
 
 const Index = () => {
+  const navigate= useNavigate();
   return (
     <div>
         <div className="Experience_container">
@@ -11,7 +13,9 @@ const Index = () => {
                      We have a proven track record of selling homes quickly 
                      and for top dollar. We are here to help you sell your home.
                      </p>
-                     <button className='btn btn-primary ' style={{backgroundColor:"#10CDD3",color:"black",border:"none"}}>About Us</button>
+                     <button className='btn btn-primary' style={{backgroundColor:"#10CDD3",color:"black",border:"none"}} 
+                 onClick={()=>{navigate("/Product")}}
+                 >About us</button>
 
                 </div>
     </div>

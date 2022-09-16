@@ -19,3 +19,8 @@
 .Page_indicator img{
     height: 50px;
 }
+@media (max-width:550px) {
+    .Page_indicator{
+        height: 40vh;
+    }
+}

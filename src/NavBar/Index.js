@@ -2,14 +2,16 @@
 import React from 'react'
 import './Style.css'
 import { NavLink } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import Logo from '../assets/images/Logo.svg'
 
 const Index = () => {
+  const navigate =useNavigate();
   return (
     <div>
       <nav>
     <div className="logo">
-      <img src={Logo} alt="logo" />
+      <img src={Logo} alt="logo" onClick={()=>{navigate("/Home")}} style={{cursor:"pointer"}}/>
     </div>
     <input type="checkbox" id="click" />
     <label htmlFor="click" className="menu-btn">
@@ -18,7 +20,7 @@ const Index = () => {
     <ul>
       <li> 
       <NavLink
-            to="/home"
+            to="/Home"
             exact
             className={({isActive})=>(isActive?"active":null)}
           >

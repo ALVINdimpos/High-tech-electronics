@@ -132,7 +132,7 @@ const Index = () => {
       <div className="row">
         <div className="col-xl-6 col-lg-6 text-center text-lg-left">
           <div className="copyright-text">
-            <p>Copyright © 2022, All Right Reserved <a href="https://alvinfiston.me/">Alvin</a></p>
+            <p>Copyright © 2022, Developed by<a href="https://alvinfiston.me/">Alvin</a></p>
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">

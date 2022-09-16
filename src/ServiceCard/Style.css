@@ -18,13 +18,6 @@ cursor: pointer;
     
 }
 @media (max-width:550px) {
-    .Card_container{
-        width: 90%;
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
-@media (max-width:550px) {
     .Card_container1{
         width: 90%;
         display: grid;

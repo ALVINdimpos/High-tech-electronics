@@ -1,28 +1,26 @@
-.Card_container{
+.Card_container1{
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     margin: 0 auto;
     gap: 2rem;
     padding: 2rem;
 }
 .card:hover{
-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 cursor: pointer;
 }
 .card_contents{
     padding: 0 12px 0 12px;
 }
 .card_contents h3{
+    margin-top: 1rem;
     text-align: center;
     
 }
-@media (max-width:550px) {
-    .Card_container{
-        width: 90%;
-        display: grid;
-        grid-template-columns: auto;
-    }
+.card img{
+    height: 150px;
+    object-fit: cover;
 }
 @media (max-width:550px) {
     .Card_container1{
