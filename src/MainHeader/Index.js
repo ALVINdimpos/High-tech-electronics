@@ -7,7 +7,7 @@ const Index = () => {
     <div>
         <div className="main-header">
             <div className="main-header__content"> 
-               <h1> High Tech Electronics LTD</h1>
+               <h1> High Tech Electronics </h1>
                <p>Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit.
                  Nullam lectus erat consectetur eu 

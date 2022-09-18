@@ -8,7 +8,7 @@ const OurServices = () => {
     <>
     <NavBar/>
     <PageIndicator name="Our services"/>
-    <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>Our Top Servive</h1>
+    <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>Our Top Services</h1>
     <Card/>
     <Footer/>
     </>

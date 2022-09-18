@@ -13,7 +13,7 @@ const Index = () => {
         consectetur adipiscing elit. 
         Phasellus augue ligula, feugiat ac leo
         </p>
-        <h3>$ 000</h3>
+        <h3>000 <span style={{fontSize:"16px"}}>FRw</span></h3>
        </div>
     
     </div>
@@ -25,7 +25,7 @@ const Index = () => {
         consectetur adipiscing elit. 
         Phasellus augue ligula, feugiat ac leo
         </p>
-        <h3>$ 000</h3>
+        <h3>000 <span style={{fontSize:"16px"}}>FRw</span></h3>
        </div>
     
     </div>
@@ -37,7 +37,7 @@ const Index = () => {
         consectetur adipiscing elit. 
         Phasellus augue ligula, feugiat ac leo
         </p>
-        <h3>$ 000</h3>
+        <h3>000 <span style={{fontSize:"16px"}}>FRw</span></h3>
        </div>
     
     </div>
@@ -49,7 +49,7 @@ const Index = () => {
         consectetur adipiscing elit. 
         Phasellus augue ligula, feugiat ac leo
         </p>
-        <h3>$ 000</h3>
+        <h3>000 <span style={{fontSize:"16px"}}>FRw</span></h3>
        </div>
     
     </div>

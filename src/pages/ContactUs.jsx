@@ -1,15 +1,18 @@
 import React from 'react'
-import NavBar from "../NavBar/Index"
-import Footer from "../Footer/Index"
+import NavBar from "../NavBar/Index";
+import "./Contactus.css";
+import ContactForm from "../ContactForm/Index";
 import PageIndicator from "../PageIndicator/Index"
-const ContactUs = () => {
+import Footer from "../Footer/Index";
+const Contactus = () => {
   return (
-    <>
-    <NavBar/>
-    <PageIndicator name="Contact us"/>
-    <Footer/>
-    </>
+    <div>
+      <NavBar />
+      <PageIndicator name="Contact Us"/>
+      <ContactForm/>
+    <Footer />
+  </div>
   )
 }
 
-export default ContactUs
+export default Contactus

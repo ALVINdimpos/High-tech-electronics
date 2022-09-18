@@ -25,8 +25,9 @@ nav .logo{
   font-weight: 600;
 }
 .logo img{
-  width: 65px !important;
-  height: 65px !important;
+  width: 108px !important;
+  height: 64px !important;
+
 }
 nav ul{
   display: flex;
