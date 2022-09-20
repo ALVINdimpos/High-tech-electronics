@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Style.css'
-import { NavLink } from "react-router-dom";
+import { NavLink ,Outlet } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import Logo from '../assets/images/Logo.svg'
 
@@ -20,7 +20,7 @@ const Index = () => {
     <ul>
       <li> 
       <NavLink
-            to="/Home"
+            to="/"
             exact
             className={({isActive})=>(isActive?"active":null)}
           >
@@ -65,6 +65,7 @@ const Index = () => {
           </NavLink>
         </li>
     </ul>
+    <Outlet />
   </nav>
     </div>
   )

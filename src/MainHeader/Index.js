@@ -8,10 +8,10 @@ const Index = () => {
         <div className="main-header">
             <div className="main-header__content"> 
                <h1> High Tech Electronics </h1>
-               <p>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit.
-                 Nullam lectus erat consectetur eu 
-                 sapien eget, rhoncus consectetur sem.</p>
+               <p>high tech electronics enterprise
+                 provides high quality electronic 
+                 products and accessories, where to
+                  get your choice.</p>
                  <button className='btn btn-primary' style={{backgroundColor:"#10CDD3",color:"black",border:"none"}} 
                  onClick={()=>{navigate("/Product")}}
                  >View our products</button>

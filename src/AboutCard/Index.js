@@ -11,9 +11,8 @@ const Index = () => {
         <img src={mission}/>
          <div className='card_contents'>
        <h3>Our mission</h3>
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit. 
-        Phasellus augue ligula, feugiat ac leo
+        <p>To create strong customer relationships through superior service and excellent quality.
+           To maintain fair relationships with our business partners and employees.
         </p>
        </div>
     
@@ -22,9 +21,8 @@ const Index = () => {
         <img src={vission}/>
          <div className='card_contents'>
        <h3>Our vission</h3>
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit. 
-        Phasellus augue ligula, feugiat ac leo
+        <p>To strengthen the Lindy brand by increasing existing market and expanding into new markets.
+           To satisfy our customers’ present and future needs through value for money products and optimized processes.
         </p>
        </div>
     
@@ -33,9 +31,8 @@ const Index = () => {
         <img src={value}/>
          <div className='card_contents'>
        <h3>Our value</h3>
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit. 
-        Phasellus augue ligula, feugiat ac leo
+        <p>-we conduct business in an atmosphere  of love,care,honesty and trust.
+           -offering quality products to the electronists with the best price at your door step.
         </p>
        </div>
     

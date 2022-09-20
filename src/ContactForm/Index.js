@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 import"./Style.css"
 const Index = () => {
@@ -13,8 +14,7 @@ const Index = () => {
             </div>
             <div className="contact-info-text">
               <h2>address</h2>
-              <span>1215 Lorem Ipsum, Ch 176080 </span> 
-              <span>Chandigarh , INDIA</span> 
+              <span>1215 Kigali, Ch 176080 </span> 
             </div>
           </div>            
         </div>          
@@ -27,8 +27,7 @@ const Index = () => {
             </div>
             <div className="contact-info-text">
               <h2>E-mail</h2>
-              <span>info@LoremIpsum.com</span> 
-              <span>yourmail@gmail.com</span>
+              <span>hightechelectronics01@gmail.com</span> 
             </div>
           </div>            
         </div>                
@@ -40,9 +39,8 @@ const Index = () => {
               <i className="fas fa-clock" />
             </div>
             <div className="contact-info-text">
-              <h2>office time</h2>
+              <h2>working time</h2>
               <span>Mon - Thu  9:00 am - 4.00 pm</span>
-              <span>Thu - Mon  10.00 pm - 5.00 pm</span>
             </div>
           </div>            
         </div>          

@@ -6,13 +6,19 @@ import Card from "../Card/Index"
 import Experience from '../Exprience/Index'
 import OurTeam from '../OurTeam/Index'
 import Tesmonial from '../OurTestmonial/Index'
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
+  const navigate= useNavigate()
   return (
     <>
   <NavBar/>
   <MainHeader/>
   <h1 style={{textAlign:'center',marginTop:'1rem'}}>Our products</h1>
   <Card/>
+  <button className='btn btn-primary' style={{backgroundColor:"#10CDD3",color:"black",border:"none",margin:"15px"}} 
+  onClick={()=>{
+   navigate("/Product")
+  }}> see more products</button>
   <Experience/>
   <OurTeam/>
   <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>Our Tesmonials</h1>

@@ -4,7 +4,7 @@ import './Style.css'
 import { NavLink } from "react-router-dom";
 import Logo from '../assets/images/whiteLogo.svg'
 const Index = () => {
-  const date= new Date();
+  const date= new Date().getFullYear();
 
   console.log("hhhhhhhh",date)
   return (
@@ -18,7 +18,7 @@ const Index = () => {
             <i className="fas fa-map-marker-alt" />
             <div className="cta-text">
               <h4>Find us</h4>
-              <span>1010 Avenue, sw 54321, chandigarh</span>
+              <span>1010 Avenue, sw 54321, Kigali</span>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@ const Index = () => {
             <i className="fas fa-phone" />
             <div className="cta-text">
               <h4>Call us</h4>
-              <span>9876543210 0</span>
+              <span>+250 780 665 456</span>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Index = () => {
             <i className="far fa-envelope-open" />
             <div className="cta-text">
               <h4>Mail us</h4>
-              <span>mail@info.com</span>
+              <span>hightechelectronics01@gmail.com</span>
             </div>
           </div>
         </div>
@@ -50,8 +50,10 @@ const Index = () => {
               <a href="index.html"><img src={Logo} className="img-fluid" alt="logo" /></a>
             </div>
             <div className="footer-text">
-              <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                elit,Lorem ipsum dolor sit amet.</p>
+              <p>high tech electronics enterprise
+                 provides high quality electronic 
+                 products and accessories, where to
+                  get your choice.</p>
             </div>
             <div className="footer-social-icon">
               <span>Follow us</span>
@@ -104,7 +106,6 @@ const Index = () => {
               <li><a href="#">Our Services</a></li>
               <li><a href="#">Expert Team</a></li>
               <li><a href="#">Contact us</a></li>
-              <li><a href="#">Latest News</a></li>
             </ul>
           </div>
         </div>
@@ -114,7 +115,7 @@ const Index = () => {
               <h3>Subscribe</h3>
             </div>
             <div className="footer-text mb-25">
-              <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              <p>Don’t miss to subscribe to our new product, kindly fill the form below.</p>
             </div>
             <div className="subscribe-form">
               <form action="#">
@@ -132,7 +133,7 @@ const Index = () => {
       <div className="row">
         <div className="col-xl-6 col-lg-6 text-center text-lg-left">
           <div className="copyright-text">
-            <p>Copyright © 2022, Developed by<a href="https://alvinfiston.me/">Alvin</a></p>
+            <p>Copyright © {date}, Developed by<a href="https://alvinfiston.me/">Alvin</a></p>
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
