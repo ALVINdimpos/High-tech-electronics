@@ -40,7 +40,8 @@ const Index = () => {
             </div>
             <div className="contact-info-text">
               <h2>working time</h2>
-              <span>Mon - Thu  9:00 am - 4.00 pm</span>
+              <span>We work Everyday except Sunday
+                    From 7:00AM up to 9:00PM</span>
             </div>
           </div>            
         </div>          
