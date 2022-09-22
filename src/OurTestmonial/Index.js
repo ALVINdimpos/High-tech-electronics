@@ -1,7 +1,7 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import image1 from "../assets/images/image1.jpg"
+import image1 from "../assets/images/image.jpg"
 import image2 from "../assets/images/image2.jpg"
 import image3 from "../assets/images/image3.jpg"
 
@@ -20,8 +20,8 @@ const Index = () => {
     <div>
       <img src={image1} alt=""/>
       <div className="myCarousel">
-        <h3>Shirley Fultz</h3>
-        <h4>Designer</h4>
+        <h3>Fiston  Alvin</h3>
+        <h4>Web Designer</h4>
         <p>
           It's freeing to be able to catch up on customized news and not be
           distracted by a social media element on the same site
