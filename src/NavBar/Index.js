@@ -3,7 +3,7 @@ import React from 'react'
 import './Style.css'
 import { NavLink ,Outlet } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
-import Logo from '../assets/images/Logo.svg'
+import Logo from '../assets/images/Logo1.png'
 
 const Index = () => {
   const navigate =useNavigate();
