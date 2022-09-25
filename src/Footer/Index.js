@@ -2,7 +2,7 @@
 import React from 'react'
 import './Style.css'
 import { NavLink } from "react-router-dom";
-import Logo from '../assets/images/whiteLogo.svg'
+import Logo from '../assets/images/Whitelogo.svg'
 const Index = () => {
   const date= new Date().getFullYear();
 

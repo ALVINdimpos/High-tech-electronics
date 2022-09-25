@@ -18,6 +18,7 @@ nav{
   position: fixed;
   z-index: 900;
   margin: 0;
+  top: 0px;
 }
 nav .logo{
   color: #fff;
@@ -26,7 +27,7 @@ nav .logo{
 }
 .logo img{
   width: 108px !important;
-  height: 64px !important;
+  height: 60px !important;
 
 }
 nav ul{
