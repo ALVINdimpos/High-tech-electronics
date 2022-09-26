@@ -10,12 +10,13 @@ const AboutUs = () => {
     <NavBar/>
     <PageIndicator name="About us"/>
     <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>About Us</h1>
-    <p style={{textAlign:"center",marginTop:"2rem",width:"60%",margin:"0 auto"}}>  we are one of the most
+    <p style={{textAlign:"center",marginTop:"2rem",width:"60%",margin:"0 auto"}}>
+     we are one of the most
      trusted electronics store for all kinds of 
      electronic components . We offer wide range of 
      quality products for hobbyist,students and all other 
      electronic service groups  </p>
- <Card/>
+     <Card/>
     <Footer/>
     </>
   )

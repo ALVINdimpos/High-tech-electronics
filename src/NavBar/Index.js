@@ -11,7 +11,7 @@ const Index = () => {
     <div>
       <nav>
     <div className="logo">
-      <img src={Logo} alt="logo" onClick={()=>{navigate("/Home")}} style={{cursor:"pointer"}}/>
+      <img src={Logo} alt="logo" onClick={()=>{navigate("/")}} style={{cursor:"pointer"}}/>
     </div>
     <input type="checkbox" id="click" />
     <label htmlFor="click" className="menu-btn">

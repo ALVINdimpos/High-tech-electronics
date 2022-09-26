@@ -36,7 +36,9 @@ border-color: #071c34;
 font-size: 48px;
 color: #10CDD3;
 }
-.contact-info-text p{margin-bottom:0px;}
+.contact-info-text p{
+    margin-bottom:0px;
+}
 .contact-info-text h2 {
 color: #fff;
 font-size: 22px;
