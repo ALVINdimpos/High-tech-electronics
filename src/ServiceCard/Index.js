@@ -3,6 +3,16 @@ import React from 'react'
 import "./Style.css"
 import Service from "../assets/images/Service.jpg"
 const Index = () => {
+  const [service, setService] = React.useState([])
+  const fetnchService = async () => {
+    const response = await fetch("https://agile-shelf-97452.herokuapp.com/api/services")
+    const data = await response.json()
+    setService(data)
+  }
+  React.useEffect(() => {
+    fetnchService()
+  }, [])
+  console.log(service)
   return (
     <div className='Card_container'>
     <div className="card">

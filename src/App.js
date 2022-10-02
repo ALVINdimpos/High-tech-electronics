@@ -5,6 +5,9 @@ import About from "./pages/AboutUs"
 import Contact from "./pages/ContactUs"
 import Service from "./pages/OurServices"
 import Product from "./pages/OurProduct"
+import Login from "./Dashboard/Login"
+import AddService from "./Dashboard/AddService"
+import AddProduct from "./Dashboard/AddProduct"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/Service" element={<Service />} />
         <Route path="/Product" element={<Product />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/AddService" element={<AddService />} />
+        <Route path="/AddProduct" element={<AddProduct />} />
       </Routes>
     </BrowserRouter>
 

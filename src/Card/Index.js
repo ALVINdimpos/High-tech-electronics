@@ -2,7 +2,17 @@
 import React from 'react'
 import "./Style.css"
 import Product from "../assets/images/product.webp"
-const Index = () => {
+const Index =() => {
+  const [product , setProduct] = React.useState([])
+  const fetnchProduct = async () => {
+    const response = await fetch("https://fakestoreapi.com/products")
+    const data = await response.json()
+    setProduct(data)
+  }
+  React.useEffect(() => {
+    fetnchProduct()
+  }, [])
+  console.log(product)
   return (
     <div className='Card_container'>
     <div className="card">

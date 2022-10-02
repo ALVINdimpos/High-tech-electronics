@@ -22,7 +22,7 @@ const Home = () => {
   <Experience/>
   <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>Our Team</h1>
   <OurTeam/>
-  <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>Our Tesmonials</h1>
+  <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>New products</h1>
   <Tesmonial/>
   <Footer/>
   </>
