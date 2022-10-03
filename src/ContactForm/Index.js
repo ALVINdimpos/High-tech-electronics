@@ -36,7 +36,7 @@ const Index = () => {
     e.preventDefault()
   setLoading(true)
     try {
-  const res= await axios.post("https://agile-shelf-97452.herokuapp.com/api/contact", data)
+  const res= await axios.post("https://agile-shelf-97452.herokuapp.com/api/send/mail", data)
   console.log(res)
   setLoading(false)
   setName('')
@@ -44,6 +44,9 @@ const Index = () => {
   setPhone('')
   setEmail('')
   setMessage('')
+  if(res.status === 200){
+    alert('Your email has been sent thank you')
+  }
     } catch (error) {
       console.log(error)
     }
@@ -101,27 +104,27 @@ const Index = () => {
             <div className="row">
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="text" placeholder="Your Name" name="name" onChange={nameHandler} />
+                  <input type="text" placeholder="Your Name" name="name" onChange={nameHandler} value={name} />
                 </div>
               </div>  
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="email" placeholder="E-mail" name="email" required onChange={emailHandler} />
+                  <input type="email" placeholder="E-mail" name="email" required onChange={emailHandler} value={email} />
                 </div>
               </div>                              
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="text" placeholder="Phone Number" name="phone" onChange={phoneHandler} />
+                  <input type="text" placeholder="Phone Number" name="phone" onChange={phoneHandler} value={phone} />
                 </div>
               </div>  
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="text" placeholder="Subject" name="subject" onChange={subjectHandler} />
+                  <input type="text" placeholder="Subject" name="subject" onChange={subjectHandler} value={subject}/>
                 </div>
               </div>                
               <div className="col-md-12 message-input">
                 <div className="single-input-field">
-                  <textarea placeholder="Write Your Message" name="message" defaultValue={""} onChange={messageHandler} />
+                  <textarea placeholder="Write Your Message" name="message" defaultValue={""} onChange={messageHandler} value={message} />
                 </div>
               </div>                                                
               <div className="single-input-fieldsbtn">

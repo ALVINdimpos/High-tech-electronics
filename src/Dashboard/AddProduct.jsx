@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import  Product from '../assets/images/products.jpg'
 const AddProduct = () => {
@@ -8,6 +8,7 @@ const AddProduct = () => {
     const [description, setDescription] = React.useState('')
     const [price, setPrice] = React.useState('') 
     const [loading, setLoading] = React.useState(false)
+    const images = useRef(null);
     const imageHandler = (e) => {
         setImage(e.target.files[0])
     }
@@ -37,7 +38,7 @@ const AddProduct = () => {
         })
         setLoading(false);
         console.log(res)
-        setImage('')
+        images.current.value = null;
         setTitle('')
         setDescription('')
         setPrice('')
@@ -61,19 +62,19 @@ const AddProduct = () => {
 </div>
 <form className="p-3 mt-3">
   <div className="form-field d-flex align-items-center">
-    <input type="file" onChange={imageHandler} />
+    <input type="file" onChange={imageHandler} ref={images} />
   </div>
   <div className="form-field d-flex align-items-center">
-    <input type="text" name="title" id="ttl" placeholder="Title" onChange={titleHandler} />
+    <input type="text" name="title" id="ttl" placeholder="Title" onChange={titleHandler} value={title} />
   </div>
   <div className="form-field d-flex align-items-center">
-    <input type="text" name="description" id="ttl" placeholder="Description" onChange={descriptionHandler} />
+    <input type="text" name="description" id="ttl" placeholder="Description" onChange={descriptionHandler} value={description} />
   </div>
   <div className="form-field d-flex align-items-center">
-    <input type="number" name="description" id="ttl" placeholder="Enter price" onChange={priceHandler} />
+    <input type="number" name="description" id="ttl" placeholder="Enter price" onChange={priceHandler} value={price} />
   </div>
   <button className="btn mt-3" onClick={submitHandler}>{loading ? "loading..." : `Save`}</button>
-  <Link to="/Home" >Home</Link>
+  <Link to="/" >Home</Link>
 </form>
 
 </div>

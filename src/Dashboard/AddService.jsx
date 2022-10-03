@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import  Service from '../assets/images/service.webp'
 const AddService = () => {
@@ -7,6 +7,7 @@ const AddService = () => {
     const [title, setTitle] = React.useState('')
     const [description, setDescription] = React.useState('')
     const [loading, setLoading] = React.useState(false)
+    const images = useRef(null);
     const imageHandler = (e) => {
         setImage(e.target.files[0])
     }
@@ -33,7 +34,7 @@ const AddService = () => {
           })
           setLoading(false);
           console.log(res)
-          setImage('')
+          images.current.value = null;
           setTitle('')
           setDescription('')
           if(res.status === 200){
@@ -54,16 +55,16 @@ const AddService = () => {
     </div>
     <form className="p-3 mt-3">
       <div className="form-field d-flex align-items-center">
-        <input type="file" onChange={imageHandler}  />
+        <input type="file" onChange={imageHandler} ref={images} />
       </div>
       <div className="form-field d-flex align-items-center">
-        <input type="text" name="title" id="ttl" placeholder="title" onChange={titleHandler}  />
+        <input type="text" name="title" id="ttl" placeholder="title" onChange={titleHandler} value={title}  />
       </div>
       <div className="form-field d-flex align-items-center">
-        <input type="text" name="description" id="ttl" placeholder="description" onChange={descriptionHandler} />
+        <input type="text" name="description" id="validationServer01"  placeholder="description" onChange={descriptionHandler} value={description}/>
       </div>
       <button className="btn mt-3" onClick={submitHandler}>{loading ? "loading..." : `Save`}</button>
-      <Link to="" >Home</Link>
+      <Link to="/" >Home</Link>
     </form>
 
   </div>
