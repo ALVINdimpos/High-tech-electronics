@@ -10,7 +10,7 @@ const Index = () => {
                <h1> High Tech Electronics </h1>
                <p>high tech electronics enterprise
                  provides high quality electronic 
-                 products and accessories,outshine .</p>
+                 products and accessories,outshine.</p>
                  <button className='btn btn-primary' style={{backgroundColor:"#10CDD3",color:"black",border:"none"}} 
                  onClick={()=>{navigate("/Product")}}
                  >View our products</button>

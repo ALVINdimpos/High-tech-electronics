@@ -11,9 +11,8 @@ const Index = () => {
         <img src={mission}/>
          <div className='card_contents'>
        <h3>Our mission</h3>
-        <p>To create strong customer relationships through superior service and excellent quality.
-           To maintain fair relationships with our business partners and employees.
-        </p>
+        <p>To strengthen our brand through offering excellent quality
+         products and good services to satisify our customers at their door steps.        </p>
        </div>
     
     </div>
@@ -21,9 +20,8 @@ const Index = () => {
         <img src={vission}/>
          <div className='card_contents'>
        <h3>Our vission</h3>
-        <p>To strengthen the Lindy brand by increasing existing market and expanding into new markets.
-           To satisfy our customers’ present and future needs through value for money products and optimized processes.
-        </p>
+        <p>Spreading the wings across the country while 
+         contribution in development of technology  </p>
        </div>
     
     </div>

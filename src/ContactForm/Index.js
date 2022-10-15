@@ -63,7 +63,7 @@ const Index = () => {
             </div>
             <div className="contact-info-text">
               <h2>address</h2>
-              <span>1215 Kigali, Ch 176080 </span> 
+              <span>KN 7 Ave,Kigali,Nyarugenge </span> 
             </div>
           </div>            
         </div>          
