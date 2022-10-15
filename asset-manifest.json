@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40e88ee9.css",
+    "main.js": "/static/js/main.e8e966d8.js",
+    "static/js/787.2c21051a.chunk.js": "/static/js/787.2c21051a.chunk.js",
+    "static/media/Back5.jpg": "/static/media/Back5.bc227234ade88b0a2b46.jpg",
+    "static/media/Back8.jpg": "/static/media/Back8.ad16416a446bd441b444.jpg",
+    "static/media/image.jpg": "/static/media/image.4242515087a6be8fffe8.jpg",
+    "static/media/martin.jpg": "/static/media/martin.4d1fc47e24ab51c60130.jpg",
+    "static/media/products.jpg": "/static/media/products.e6d085783aa35b16db68.jpg",
+    "static/media/PageIndicator.jpg": "/static/media/PageIndicator.5f6b95124f844c11779c.jpg",
+    "static/media/mission.jpg": "/static/media/mission.054eb17ea2b857a859f1.jpg",
+    "static/media/Background2.jpg": "/static/media/Background2.a8b4eafb4e24678ae573.jpg",
+    "static/media/product.webp": "/static/media/product.67322a0f50f0a253179a.webp",
+    "static/media/vission.jpg": "/static/media/vission.af03b40d388f24750974.jpg",
+    "static/media/service.webp": "/static/media/service.3cb8db6380c904121c95.webp",
+    "static/media/image2.jpg": "/static/media/image2.2cc15b8a671ba234a628.jpg",
+    "static/media/image3.jpg": "/static/media/image3.e7ac7c2fd133666fa868.jpg",
+    "static/media/Service.jpg": "/static/media/Service.578a5c6e0d1ca6171869.jpg",
+    "static/media/logo.svg": "/static/media/logo.85744232005254618eb71249135baf42.svg",
+    "static/media/Whitelogo.svg": "/static/media/Whitelogo.d81d0178ebbd35ff579cac46a1596287.svg",
+    "static/media/logo2.webp": "/static/media/logo2.199731736a521a4cd1df.webp",
+    "index.html": "/index.html",
+    "static/media/Page.svg": "/static/media/Page.68181f7c84023762b6dbf8aaa49759ea.svg",
+    "main.40e88ee9.css.map": "/static/css/main.40e88ee9.css.map",
+    "main.e8e966d8.js.map": "/static/js/main.e8e966d8.js.map",
+    "787.2c21051a.chunk.js.map": "/static/js/787.2c21051a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40e88ee9.css",
+    "static/js/main.e8e966d8.js"
+  ]
+}
