@@ -5,7 +5,6 @@ import Footer from '../Footer/Index'
 import Card from "../Card/Index"
 import Experience from '../Exprience/Index'
 import OurTeam from '../OurTeam/Index'
-import Tesmonial from '../OurTestmonial/Index'
 import { useNavigate } from 'react-router-dom'
 const Home = () => {
   const navigate= useNavigate()
@@ -22,8 +21,6 @@ const Home = () => {
   <Experience/>
   <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>Our Team</h1>
   <OurTeam/>
-  <h1 style={{fontWeight:"bolder",textAlign:"center",marginTop:"2rem"}}>New products</h1>
-  <Tesmonial/>
   <Footer/>
   </>
   )
